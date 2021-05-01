@@ -1,0 +1,139 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  background: #444;
+  margin: 0;
+  font-family: monospace;
+}
+
+/**Diseño de Menú**/
+ .menu {
+	width:100%;
+	height: auto;
+	position: relative;
+	background-color: rgba(0, 0, 0,0.5);
+	border-bottom: 2px solid #9b9885;
+	z-index: 1000;
+	float: right;
+}
+
+.menu img {
+	width: 150px;
+	height: 80px;
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	background-color: rgba(0, 0, 0,0.5);
+}
+
+li {
+	padding: 15px 15px;	
+	display: inline-block;
+	position: relative;
+	float: right;
+	right: 60px;
+	border-left: 1px solid #000;
+}
+
+a {
+	color: #FFF;
+	font-family: "Raleway", sans-serif;
+	font-size: 13px;
+ 	font-weight: 600;
+  letter-spacing: 1px;
+  margin: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/**Cuerpo de la pagina**/
+h1 {
+	top: 80px;
+	position: center;
+  width: 60%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.8);
+  color: #f39f03;  
+}
+
+.cuerpo {
+	top: 350px;
+	background-color: #666354;
+	position: relative;
+	color: #f6f6f6;
+	width: 100%;
+}
+
+h2 {
+	padding: 10px 0px 0px 40px;
+	text-align: 30px;
+	height: 30px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 25px;
+	font-weight: 100;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+	padding-top: 10px; 
+	padding-left: 40px;
+	margin: 0;
+	height: 80px;
+}
+
+/**Pie de pagina**/
+
+#pie-pagina p {
+	top: 170px;
+	background-color: #191919;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+	width: 100%;
+	height: 120px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+}
+
+table {
+	top: 80px;
+	font-size: 18px;
+	color: #fff;
+  height: 40%;
+  margin: 30px auto;
+  position: relative;
+  border: 1px solid #FFF;
+
+
+}
+
+td {
+	font-size: 15px;
+  background: #416870;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+th {
+	font-size: 18px;
+	background: #557379;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+}
